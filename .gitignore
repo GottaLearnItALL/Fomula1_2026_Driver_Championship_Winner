@@ -6,5 +6,23 @@ dist/
 wheels/
 *.egg-info
 
-# Virtual environments
-.venv
+# --- IDEs (Cursor / VS Code) ---
+.vscode/
+.cursor/
+.history/
+*.code-workspace
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Environment / Secrets ---
+.env
+.env.local
+.venv/
+
+# --- Machine Learning (If applicable) ---
+data/
+models/
+*.log
